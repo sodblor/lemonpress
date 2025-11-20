@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="mn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <header class="sticky top-0 bg-white shadow-sm z-50">
+      <div
+        class="max-w-[1180px] mx-auto flex items-center justify-between py-3 px-4"
+      >
+        <div class="flex items-center gap-3">
+          <div
+            class="w-10 h-10 bg-yellow-400 rounded flex items-center justify-center font-bold text-gray-900"
+          >
+            LP
+          </div>
+          <h1 class="font-bold text-lg">Lemon Press</h1>
+        </div>
+
+        <nav class="hidden md:flex gap-6 font-semibold text-gray-700">
+          <a href="#" class="hover:text-gray-900 transition">Эдийн засаг</a>
+          <a href="#" class="hover:text-gray-900 transition">Санхүү</a>
+          <a href="#" class="hover:text-gray-900 transition">Бизнес</a>
+          <a href="#" class="hover:text-gray-900 transition">Технологи</a>
+          <a href="#" class="hover:text-gray-900 transition">Ярилцлага</a>
+        </nav>
+        <button
+          class="hidden md:block bg-yellow-400 text-gray-900 font-bold px-4 py-2 rounded-lg hover:bg-yellow-500 transition"
+        >
+          Уншаад үзиии
+        </button>
+      </div>
+    </header>
+    <main
+      class="max-w-[1180px] mx-auto p-4 mt-6 grid lg:grid-cols-[1fr_320px] gap-6"
+    >
+      <section class="space-y-6">
+        <div class="grid lg:grid-cols-[2fr_1fr] gap-6">
+          <div
+            class="relative group cursor-pointer rounded-xl overflow-hidden h-[400px]"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=1600&auto=format&fit=crop"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent p-6 flex flex-col justify-end"
+            >
+              <span class="bg-black/50 text-xs font-bold px-2 py-1 rounded"
+                >Үзэх</span
+              >
+              <h2 class="mt-2 text-3xl font-bold leading-tight text-white">
+                Эдийн засгийн тойм — улирлын гол үйл явдлууд
+              </h2>
+              <p class="text-gray-200 text-xs mt-1">Lemon Press • 2025.11.18</p>
+            </div>
+          </div>
+          <aside class="flex flex-col gap-3">
+            <div
+              class="flex gap-3 items-start bg-white rounded-lg shadow-sm hover:shadow-md transition cursor-pointer overflow-hidden"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop"
+                class="w-28 h-20 object-cover rounded-l"
+              />
+              <div class="p-2 flex flex-col justify-between">
+                <h3 class="text-sm font-semibold">
+                  Нийслэл дахин бонд гаргана
+                </h3>
+                <p class="text-gray-500 text-xs">М.Хулан • 2025.11.17</p>
+              </div>
+            </div>
+
+            <div
+              class="flex gap-3 items-start bg-white rounded-lg shadow-sm hover:shadow-md transition cursor-pointer overflow-hidden"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1542223616-2add5b6b3b42?q=80&w=800&auto=format&fit=crop"
+                class="w-28 h-20 object-cover rounded-l"
+              />
+              <div class="p-2 flex flex-col justify-between">
+                <h3 class="text-sm font-semibold">Банкны салбар дахь AI</h3>
+                <p class="text-gray-500 text-xs">Б.Эсүхэй • 2025.11.16</p>
+              </div>
+            </div>
+
+            <div
+              class="flex gap-3 items-start bg-white rounded-lg shadow-sm hover:shadow-md transition cursor-pointer overflow-hidden"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=800&auto=format&fit=crop"
+                class="w-28 h-20 object-cover rounded-l"
+              />
+              <div class="p-2 flex flex-col justify-between">
+                <h3 class="text-sm font-semibold">2026 оны төсөв батлагдлаа</h3>
+                <p class="text-gray-500 text-xs">М.Хулан • 2025.11.14</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <div class="space-y-3">
+          <div class="flex justify-between items-center mb-2">
+            <h3 class="text-lg font-bold">Сүүлийн мэдээ</h3>
+            <a href="#" class="text-gray-500 text-sm hover:underline"
+              >Бүгдийг үзэх</a
+            >
+          </div>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <article
+              class="bg-white rounded-lg overflow-hidden cursor-pointer hover:shadow-md transition"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=800&auto=format&fit=crop"
+                class="w-full h-40 object-cover"
+              />
+              <div class="p-3">
+                <h4 class="text-sm font-semibold">
+                  Apple-н дараагийн CEO айсуй
+                </h4>
+                <p class="text-gray-500 text-xs mt-1">Б.Эсүхэй • 2025.11.17</p>
+              </div>
+            </article>
+
+            <article
+              class="bg-white rounded-lg overflow-hidden cursor-pointer hover:shadow-md transition"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
+                class="w-full h-40 object-cover"
+              />
+              <div class="p-3">
+                <h4 class="text-sm font-semibold">
+                  Төрийн банк ХК-ийн $200 саяын төлөвлөгөө
+                </h4>
+                <p class="text-gray-500 text-xs mt-1">М.Хулан • 2025.11.07</p>
+              </div>
+            </article>
+
+            <article
+              class="bg-white rounded-lg overflow-hidden cursor-pointer hover:shadow-md transition"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800&auto=format&fit=crop"
+                class="w-full h-40 object-cover"
+              />
+              <div class="p-3">
+                <h4 class="text-sm font-semibold">
+                  Дэлхий даяар AI-д ажлын байраа алдсаар
+                </h4>
+                <p class="text-gray-500 text-xs mt-1">Б.Эсүхэй • 2025.10.30</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <aside class="space-y-4">
+        <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+          <strong class="block text-sm mb-1">NEWSLETTER</strong>
+          <p class="text-gray-500 text-xs">
+            Хөрөнгө оруулалт, бизнесийн тоймыг 5 минутанд
+          </p>
+          <div class="flex gap-2 mt-2">
+            <input
+              type="email"
+              placeholder="И-мэйл хаяг"
+              class="flex-1 border border-gray-300 rounded px-2 py-1 text-sm focus:outline-none focus:ring-1 focus:ring-yellow-400"
+            />
+            <button
+              class="bg-gray-900 text-white px-3 py-1 rounded font-bold text-sm hover:bg-gray-800 transition"
+            >
+              Уншаад үзиии
+            </button>
+          </div>
+          <p class="text-gray-400 text-xs mt-2">
+            Долоо хоногийн ажлын өдрүүдэд өглөөний 07:00-д илгээж байна.
+          </p>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+          <strong class="block text-sm mb-1">Холбоо барих</strong>
+          <p class="text-gray-500 text-xs mt-1">
+            Phone: 7755 2400<br />
+            Email: info@lemonpress.mn
+          </p>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-200">
+          <strong class="block text-sm mb-1">Подкаст</strong>
+          <p class="text-gray-500 text-xs mt-1">Lunch Hour — latest episodes</p>
+        </div>
+      </aside>
+    </main>
+    <section
+      class="max-w-[1180px] mx-auto mt-10 grid lg:grid-cols-[320px_1fr_320px] gap-6 px-4"
+    >
+      <div class="bg-black text-white rounded-xl p-5 space-y-4">
+        <h2 class="text-lg font-bold">Товхимууд</h2>
+
+        <div class="space-y-4 text-sm">
+          <div>
+            <p class="text-gray-400 text-xs">Wed, 19 Nov 2025 23:01 +0000</p>
+            <p class="flex items-center gap-2 mt-1">
+              🏅 <span class="font-medium">33.6 гр алттай одон</span>
+            </p>
+          </div>
+
+          <div>
+            <p class="text-gray-400 text-xs">Tue, 18 Nov 2025 23:00 +0000</p>
+            <p class="flex items-center gap-2 mt-1">
+              🚙 <span class="font-medium">Түгжрэл бууруулах зам</span>
+            </p>
+          </div>
+
+          <div>
+            <p class="text-gray-400 text-xs">Mon, 17 Nov 2025 23:00 +0000</p>
+            <p class="flex items-center gap-2 mt-1">
+              🏛️ <span class="font-medium">104 жилийн түүхт МАН</span>
+            </p>
+          </div>
+
+          <div>
+            <p class="text-gray-400 text-xs">Sun, 16 Nov 2025 23:00 +0000</p>
+            <p class="flex items-center gap-2 mt-1">
+              🤖 <span class="font-medium">GPT: Супер программ</span>
+            </p>
+          </div>
+
+          <div>
+            <p class="text-gray-400 text-xs">Thu, 13 Nov 2025 23:00 +0000</p>
+            <p class="flex items-center gap-2 mt-1">
+              💖 <span class="font-medium">Reddit-д суугаа Монголчууд</span>
+            </p>
+          </div>
+
+          <div>
+            <p class="text-gray-400 text-xs">Wed, 12 Nov 2025 23:01 +0000</p>
+            <p class="flex items-center gap-2 mt-1">
+              🚀 <span class="font-medium">Хурдацтай өсөх 20 брэнд</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-xl overflow-hidden bg-white shadow">
+        <div class="relative h-[360px]">
+          <img
+            src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?w=1600"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/70 to-transparent p-5 text-white"
+          >
+            <span class="text-xs opacity-80">Хэвлэлийн мэдээ</span>
+            <h2 class="text-xl font-bold leading-snug mt-1">
+              “Багийн бага сургууль” санаачилгын эхний сургуулиуд нээлтээ хийлээ
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-5">
+        <div class="bg-[#011133] rounded-xl text-white p-5 relative">
+          <p class="text-xs opacity-90">
+            Та энд сурталчилгаа байрлуулахыг хүсвэл
+          </p>
+          <p class="font-semibold mt-1">www.boost.mn хандаарай.</p>
+
+          <button
+            class="mt-3 bg-yellow-400 text-black font-bold px-4 py-2 rounded-lg"
+          >
+            Click Me
+          </button>
+
+          <div
+            class="absolute top-4 right-4 w-14 h-14 bg-white rounded-md"
+          ></div>
+        </div>
+        <div class="bg-white border rounded-xl p-4 space-y-4">
+          <div>
+            <span class="text-blue-600 text-xs font-bold">УЛС ТӨР</span>
+            <p class="font-semibold mt-1 cursor-pointer hover:underline">
+              МАН-ын шинэхэн дарга
+            </p>
+            <p class="text-xs text-gray-500">М.Хулан • 11 сарын 18, 2025</p>
+          </div>
+
+          <div>
+            <span class="text-blue-600 text-xs font-bold">БИЗНЕС</span>
+            <p class="font-semibold mt-1 cursor-pointer hover:underline">
+              Apple-н дараагийн CEO айсуй
+            </p>
+            <p class="text-xs text-gray-500">Б.Эсүхэй • 11 сарын 18, 2025</p>
+          </div>
+
+          <div>
+            <span class="text-blue-600 text-xs font-bold">ЭДИЙН ЗАСАГ</span>
+            <p class="font-semibold mt-1 cursor-pointer hover:underline">
+              Нийслэл дахин бонд гаргана
+            </p>
+            <p class="text-xs text-gray-500">М.Хулан • 11 сарын 17, 2025</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="mt-16 w-full bg-gradient-to-br from-blue-600 to-blue-800 py-16 px-4"
+    >
+      <div class="max-w-[900px] mx-auto text-center text-white">
+        <p class="text-xs tracking-wide opacity-80">NEWSLETTER</p>
+
+        <h2 class="text-3xl font-bold mt-2 leading-snug">
+          Хөрөнгө оруулалт, бизнесийн тоймыг
+          <span class="text-yellow-300">5 минутад</span>
+        </h2>
+
+        <div
+          class="flex mt-6 max-w-[500px] mx-auto bg-white rounded-xl overflow-hidden"
+        >
+          <input
+            type="email"
+            placeholder="Имэйл хаяг"
+            class="flex-1 px-3 py-3 text-gray-800 text-sm outline-none"
+          />
+          <button class="px-6 bg-blue-700 text-white font-semibold text-sm">
+            Уншаад үзье
+          </button>
+        </div>
+
+        <p class="text-sm opacity-80 mt-3">
+          Таны шийдвэр гаргалтад зайлшгүй хэрэгтэй мэдээллийг агуулсан имэйл
+          товхимлыг ажлын өдөр бүр, өглөө 07:00 цагт үнэгүй илгээнэ.
+        </p>
+      </div>
+    </section>
+    <div
+      class="max-w-7xl mx-auto px-4 mt-6 grid grid-cols-1 lg:grid-cols-3 gap-6"
+    >
+      <div class="lg:col-span-2 space-y-6">
+        <div
+          class="w-full bg-white rounded-xl shadow-sm border overflow-hidden"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1682687219640-b3f11f4b81bb"
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-4">
+            <span class="text-blue-600 font-semibold text-sm">УЛС ТӨР</span>
+            <h2 class="mt-1 text-xl font-bold leading-tight">
+              Монголын хөршүүдтэйгээ хийсэн тохиролцоо
+            </h2>
+            <p class="text-gray-500 text-sm mt-1">М.Хулан / 2025.11.20</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white border rounded-xl overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7"
+              class="w-full h-40 object-cover"
+            />
+            <div class="p-4">
+              <span class="text-blue-600 font-semibold text-sm">СУДАЛГАА</span>
+              <h3 class="font-bold text-lg leading-snug mt-1">
+                Чингис Хаан одон хүртсэн хүмүүсийн 36.8%-ийг үс төрчид эзэлж
+                байна
+              </h3>
+              <p class="text-gray-500 text-sm mt-1">Б.Энхшүх / 2025.11.20</p>
+            </div>
+          </div>
+          <div class="bg-white border rounded-xl overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1604145559206-e3bce0040e2d"
+              class="w-full h-40 object-cover"
+            />
+            <div class="p-4">
+              <span class="text-blue-600 font-semibold text-sm"
+                >ХЭВЛЭЛИЙН МЭДЭЭ</span
+              >
+              <h3 class="font-bold text-lg leading-snug mt-1">
+                “Багийн бага сургууль” санаачилгын эхний сургуулиуд нээлтээ
+                хийлээ
+              </h3>
+              <p class="text-gray-500 text-sm mt-1">Lemon Press / 2025.11.19</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex bg-white rounded-xl border overflow-hidden">
+          <img
+            src="https://images.unsplash.com/photo-1581092580345-cd7c95b45a70"
+            class="w-48 object-cover hidden md:block"
+          />
+          <div class="p-4 flex flex-col justify-center">
+            <span class="text-blue-600 font-semibold text-sm">БИЗНЕС</span>
+            <h3 class="font-bold text-lg mt-1">
+              Google Pay нэвтруулсэн анхны ББСБ
+            </h3>
+            <p class="text-gray-500 text-sm mt-1">С.Ангирмаа / 2025.11.19</p>
+          </div>
+        </div>
+      </div>
+      <div class="space-y-6">
+        <div class="rounded-xl overflow-hidden border shadow-sm">
+          <img
+            src="https://images.unsplash.com/photo-1544717305-2782549b5136"
+            class="w-full h-72 object-cover"
+          />
+        </div>
+        <div class="rounded-xl overflow-hidden border shadow-sm">
+          <img
+            src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+            class="w-full h-72 object-cover"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer
+      class="mt-12 p-6 text-gray-500 text-xs text-center border-t border-gray-200"
+    >
+      © Lemon Press Digital, Inc. • All rights reserved.
+    </footer>
+  </body>
+</html>
